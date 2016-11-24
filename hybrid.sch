@@ -5538,11 +5538,11 @@ DIN A3, landscape with extra doc field</description>
 </class>
 </classes>
 <parts>
-<part name="V1" library="tubes" deviceset="6DJ8-P" device=""/>
+<part name="V1" library="tubes" deviceset="6DJ8-P" device="" value="6DJ8"/>
 <part name="Q1" library="my-tran" deviceset="BC560" device="KINKED"/>
 <part name="R3" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="1k"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="12k"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33k"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="820"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
@@ -5571,7 +5571,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="Q8" library="my-tran" deviceset="BC560" device="KINKED"/>
 <part name="R18" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="1k"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="12k"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="33k"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="820"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="4.7k"/>
@@ -5662,7 +5662,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="A1" library="my-smps" deviceset="R-78HBXX-0.5" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R32" library="my-res" deviceset="RESISTOR" device="PTH-1/2W" value="0.536"/>
+<part name="R32" library="my-res" deviceset="RESISTOR" device="PTH-1/2W" value="0.549"/>
 <part name="GB1" library="my" deviceset="COPPER-BRIDGE" device="SM" value=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="3,81/1,4" device="" value="30VAC_H"/>
@@ -5677,6 +5677,8 @@ DIN A3, landscape with extra doc field</description>
 <sheets>
 <sheet>
 <plain>
+<text x="66.04" y="226.06" size="1.778" layer="97">1.7V</text>
+<text x="33.02" y="185.42" size="1.778" layer="97">45V</text>
 </plain>
 <instances>
 <instance part="V1" gate="A" x="43.18" y="157.48"/>
