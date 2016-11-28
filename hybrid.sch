@@ -5566,7 +5566,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="my-cap" deviceset="CAP_POL" device="PTH-12/5" value="470uF"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q8" library="my-tran" deviceset="BC560" device="KINKED"/>
 <part name="R18" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="3362U-2" value="1k"/>
@@ -5595,7 +5595,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="220"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C14" library="my-cap" deviceset="CAP_POL" device="PTH-12/5" value="470uF"/>
-<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10k"/>
+<part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="2.2k"/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="my-conn" deviceset="NRJ3HF-1" device=""/>
 <part name="R2" library="my" deviceset="TD90" device=""/>
